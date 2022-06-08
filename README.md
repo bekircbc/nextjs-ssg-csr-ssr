@@ -1,3 +1,33 @@
+# Next.js Page
+
+# Rending Strategies
+
+- state-site generation (SSG)
+
+      with getStaticProps() and a "revalidate: 600" property to regenerate the static files every 10 minutes
+
+      local JSON file as in create-react-app and Vite site
+
+- client-side rendering (CSR)
+
+      with useState/useEffect as in create-react-app and Vite site
+
+- server-side rendering (SSR)
+
+      with getServerSideProps() which fetches data on the server
+
+# Howto build next.js pages
+
+- npx create-next-app
+
+      enter a name for page
+
+- npm run dev or yarn dev for starting the page.
+
+- if you not install : yarn npm i --g yarn
+
+# Information about Next.js
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
