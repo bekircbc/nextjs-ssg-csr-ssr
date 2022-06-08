@@ -1,0 +1,55 @@
+.page_member {
+		.singleMember {
+			background-color: #222;
+			padding: 20px;
+			margin: 20px 0 10px 0;
+			border-radius: 5px;
+			border: 1px solid #555;
+			display: flex;
+			width: 570px;
+
+			img {
+				width: 190px;
+				object-fit: cover;
+			}
+
+			.info {
+				margin-left: 10px;
+				font-size: 2rem;
+				.notes {
+					font-size: 1.3rem;
+					color: #ccc;
+				}
+			}
+		}
+
+}
+.page_members {
+	.members {
+		font-size: 1.3rem;
+		width: 610px;
+
+		.member {
+			background-color: #222;
+			padding: 10px;
+			margin: 0 0 10px 0;
+			border-radius: 5px;
+			border: 1px solid #555;
+			display: flex;
+
+			img {
+				width: 40px;
+			}
+
+			.info {
+				margin-left: 10px;
+				font-size: 2rem;
+			}
+		}
+
+		.member:hover {
+			background-color: #292929;
+			cursor: pointer;
+		}
+	}
+}
